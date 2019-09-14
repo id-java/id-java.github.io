@@ -56,9 +56,9 @@ ul {
 }
 
 #intro-title {
-    font-family: 'Asap', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Merriweather sans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 45px;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 #intro-text {
@@ -174,14 +174,14 @@ ul {
 .resume {
     position: relative;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 100%;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'roboto mono', monospace;
     font-weight: 450;
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.resume a {
+a {
     text-decoration: none;
 }
 
@@ -192,11 +192,5 @@ ul {
 .resume a:hover{
     color: white;
     background-color: black;
-}
-
-.copyright {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    width: 100%;
-    text-align: center;
+    /* text-decoration: none; */
 }
