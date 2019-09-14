@@ -193,3 +193,10 @@ ul {
     color: white;
     background-color: black;
 }
+
+.copyright {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
