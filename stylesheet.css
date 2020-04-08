@@ -10,7 +10,7 @@
 
 #content {
     width: 100%;
-    margin: 10% auto 10% auto;
+    margin: 10% auto 0% auto;
     text-align: center;
 }
 
@@ -95,4 +95,12 @@ a:visited {
 
 .current a {
     text-decoration: none;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    margin-top: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
