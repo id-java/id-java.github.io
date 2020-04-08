@@ -68,6 +68,7 @@
 #social li {
     display: inline-block;
     padding: 10px;
+    padding-bottom: 0;
     font-family: 'roboto mono', monospace;
     font-weight: 500;
 }
