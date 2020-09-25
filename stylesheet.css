@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* body {
@@ -9,99 +9,105 @@
 } */
 
 #content {
-    width: 100%;
-    margin: 10% auto 0% auto;
-    text-align: center;
+  width: 100%;
+  margin: 10% auto 0% auto;
+  text-align: center;
 }
 
 #name {
-    font-family: 'Share', Arial, Helvetica, sans-serif;    
+  font-family: "Share", Arial, Helvetica, sans-serif;
 }
 
 .pre-name {
-    font-size: 22px;
-    margin-bottom: 5px;
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 
 .my-name {
-    font-size: 55px;
-    font-style: italic;
+  font-size: 55px;
+  font-style: italic;
 }
 
 #intro {
-    margin: 20px 0 0 0;
-    font-family: 'dosis', sans-serif;
-    font-weight: 600;
+  margin: 20px 0 0 0;
+  font-family: "dosis", sans-serif;
+  font-weight: 600;
 }
 
 .intro-text {
-    font-size: 23px;
-    padding-bottom: 5px;
+  font-size: 23px;
+  padding-bottom: 5px;
 }
 
 .and {
-    font-size: 18px;
-    font-weight: 800;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .current {
-    font-size: 20px;
-    margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 #hobbies {
-    /* font-family: 'roboto mono', monospace; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    margin-top: 20px;
+  /* font-family: 'roboto mono', monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
-#hobbies a {
-    font-style: italic;
-    text-decoration: none;
+Daniyal Khawaja #hobbies a {
+  font-style: italic;
+  text-decoration: none;
 }
 
 #social {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #social li {
-    display: inline-block;
-    padding: 10px;
-    padding-bottom: 0;
-    font-family: 'roboto mono', monospace;
-    font-weight: 500;
+  display: inline-block;
+  padding: 10px;
+  padding-bottom: 0;
+  font-family: "roboto mono", monospace;
+  font-weight: 500;
 }
 
 a:visited {
-    color: #00EE;
+  color: rgb(217, 69, 79); //217	69	79
 }
 
- #name, #intro, #hobbies {
-    animation-name: main-slide;
-    animation-duration: 1s;
+a {
+  color: rgb(217, 69, 79);
+}
+
+#name,
+#intro,
+#hobbies {
+  animation-name: main-slide;
+  animation-duration: 1s;
 }
 
 @keyframes main-slide {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateX(0px);
-    }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .current a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
-    font-size: 0.75em;
-    text-align: center;
-    margin-top: 40px;
-    font-family:  Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
