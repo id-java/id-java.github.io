@@ -74,11 +74,11 @@ Daniyal Khawaja #hobbies a {
 }
 
 a:visited {
-  color: rgb(217, 69, 79); //217	69	79
+  color: #0073b1; //217	69	79
 }
 
 a {
-  color: rgb(217, 69, 79);
+  color: #0073b1;
 }
 
 #name,
