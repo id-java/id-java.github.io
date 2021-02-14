@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Noto Sans SC", sans-serif;
+  font-size: 2vw;
+  font-weight: 200;
+}
+
+.poop img {
+  width: 20%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 8vw;
+  font-family: "Italianno", cursive;
+}
