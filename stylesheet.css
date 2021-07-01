@@ -35,7 +35,7 @@
 }
 
 .intro-text {
-  font-size: 23px;
+  font-size: 24px;
   padding-bottom: 5px;
 }
 
@@ -53,10 +53,11 @@
   /* font-family: 'roboto mono', monospace; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-Daniyal Khawaja #hobbies a {
+#hobbies a {
   font-style: italic;
   text-decoration: none;
 }
@@ -65,6 +66,9 @@ Daniyal Khawaja #hobbies a {
   margin-top: 30px;
 }
 
+#social a {
+  text-decoration:overline;
+}
 #social li {
   display: inline-block;
   padding: 10px;
@@ -74,16 +78,17 @@ Daniyal Khawaja #hobbies a {
 }
 
 a:visited {
-  color: #0073b1; //217	69	79
+  color: #0059ff; 
 }
 
 a {
-  color: #0073b1;
+  color: #0059ff;
 }
 
-#name,
+/* #name,
 #intro,
-#hobbies {
+#hobbies, */
+* {
   animation-name: main-slide;
   animation-duration: 1s;
 }
